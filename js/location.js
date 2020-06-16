@@ -9,6 +9,8 @@ const genetics = document.querySelector('#genetics')
 const discussion = document.querySelector('#discussion')
 
 li_about.addEventListener('click', () => {
+    window.scrollTo(0, 0)
+    
     about.style.display = 'block'
     characteristics.style.display = 'none'
     genetics.style.display = 'none'
@@ -22,6 +24,8 @@ li_about.addEventListener('click', () => {
 })
 
 li_characteristics.addEventListener('click', () => {
+    window.scrollTo(0, 0)
+    
     about.style.display = 'none'
     characteristics.style.display = 'block'
     genetics.style.display = 'none'
@@ -35,6 +39,8 @@ li_characteristics.addEventListener('click', () => {
 })
 
 li_genetics.addEventListener('click', () => {
+    window.scrollTo(0, 0)
+    
     about.style.display = 'none'
     characteristics.style.display = 'none'
     genetics.style.display = 'block'
@@ -48,6 +54,8 @@ li_genetics.addEventListener('click', () => {
 })
 
 li_discussion.addEventListener('click', () => {
+    window.scrollTo(0, 0)
+    
     about.style.display = 'none'
     characteristics.style.display = 'none'
     genetics.style.display = 'none'
