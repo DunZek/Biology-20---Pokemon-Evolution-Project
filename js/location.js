@@ -21,6 +21,12 @@ li_about.addEventListener('click', () => {
     li_characteristics.classList.remove('selected')
     li_genetics.classList.remove('selected')
     li_discussion.classList.remove('selected')
+    
+    document.querySelector('#misc').classList.remove('open')
+    document.querySelector('header').classList.remove('blur')
+    document.querySelector('hr').classList.remove('blur')
+    document.querySelector('#content').classList.remove('blur')
+    return open = false
 })
 
 li_characteristics.addEventListener('click', () => {
@@ -36,6 +42,12 @@ li_characteristics.addEventListener('click', () => {
     li_characteristics.classList.add('selected')
     li_genetics.classList.remove('selected')
     li_discussion.classList.remove('selected')
+    
+    document.querySelector('#misc').classList.remove('open')
+    document.querySelector('header').classList.remove('blur')
+    document.querySelector('hr').classList.remove('blur')
+    document.querySelector('#content').classList.remove('blur')
+    return open = false
 })
 
 li_genetics.addEventListener('click', () => {
@@ -51,6 +63,12 @@ li_genetics.addEventListener('click', () => {
     li_characteristics.classList.remove('selected')
     li_genetics.classList.add('selected')
     li_discussion.classList.remove('selected')
+    
+    document.querySelector('#misc').classList.remove('open')
+    document.querySelector('header').classList.remove('blur')
+    document.querySelector('hr').classList.remove('blur')
+    document.querySelector('#content').classList.remove('blur')
+    return open = false
 })
 
 li_discussion.addEventListener('click', () => {
@@ -66,6 +84,12 @@ li_discussion.addEventListener('click', () => {
     li_characteristics.classList.remove('selected')
     li_genetics.classList.remove('selected')
     li_discussion.classList.add('selected')
+    
+    document.querySelector('#misc').classList.remove('open')
+    document.querySelector('header').classList.remove('blur')
+    document.querySelector('hr').classList.remove('blur')
+    document.querySelector('#content').classList.remove('blur')
+    return open = false
 })
 
 // Config
